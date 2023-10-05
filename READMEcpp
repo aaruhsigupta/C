@@ -11,7 +11,7 @@ int main() {
 
   //pattern printing 1
 
- /*int n;
+ int n;
   cin >> n;
 
   int i = 1;
@@ -23,14 +23,14 @@ int main() {
         j=j+1;
     }
     cout<<endl;
-    i=i+1;*/
+    i=i+1;
 
 
 
 
     //pattern printing 2
 
-    /*int n;
+    int n;
     cin>>n;
     int i=1;
     int count = 1;
@@ -42,7 +42,7 @@ int main() {
         j=j+1;
       }
       cout<<endl;
-      i = i+1; */
+      i = i+1; 
 
 
 
@@ -50,7 +50,7 @@ int main() {
 
       //Triangle pattern
 
-   /*int n;
+   int n;
 cin>>n;
  int row = 1;
  while(row<=n){
@@ -62,7 +62,7 @@ cin>>n;
   }
   cout<<endl;
   row = row + 1 ;
- } */
+ } 
 
 
 
@@ -70,7 +70,7 @@ cin>>n;
 
       //pattern column
 
-      /*int n;
+      int n;
       cin>>n;
 
       int row = 1;
@@ -83,14 +83,14 @@ cin>>n;
         }
         cout<<endl;
         row=row+1;
-    }  */
+    }  
 
 
 
 
 // pattern 5
 
-/*int n;
+int n;
 cin>>n;
 
 int row = 1;
@@ -104,14 +104,14 @@ while(row<=n) {
   }
   cout<<endl;
   row = row +1;
-} */
+} 
 
 
 
 
 //pattern 6 using i-j+1
 
-/*int n;
+int n;
 cin>>n;
 
 int i = 1;
@@ -124,13 +124,13 @@ while(i <=n){
   }
   cout<<endl;
   i=i+1;
-} */
+} 
 
 
 
 //Pattern 7 AAA BBB  CCC Square  type (using 'A' + i -1)
 
-/* int n;
+ int n;
 cin>>n;
  int row = 1;
  while(row<=n){
@@ -142,13 +142,13 @@ cin>>n;
   }
   cout<<endl;
   row = row + 1 ;
- }  */
+ }  
 
 
 
 // Pattern 8 ABC  ABC  ABC Type(using 'A' + j-1)
 
-/*int n;
+int n;
 cin>>n;
 
 int row = 1;
@@ -162,14 +162,14 @@ while(row<=n){
   }
   cout<<endl;
   row = row + 1;
-}  */
+}  
 
 
 
 
 // Pattern of type ABCDEF
 
-/*int n;
+int n;
     cin>>n;
     int i=1;
     char value = 'A';
@@ -183,13 +183,13 @@ while(row<=n){
       }
       cout<<endl;
       i = i+1;
-} */
+} 
 
 
 
 // Pattern type ABC  BCD  CDE  (using 'A' + i + j -2)
 
-/*int n;
+int n;
 cin>>n;
  int row = 1;
  while(row<=n){
@@ -201,7 +201,7 @@ cin>>n;
   }
   cout<<endl;
   row = row + 1 ;
- }*/
+ }
 
 
 
@@ -227,7 +227,7 @@ cin>>n;
  // reverse triangular 
 
 
-/*int n;
+int n;
  cin>>n;
 
  int row = 1;
@@ -248,13 +248,13 @@ while(col <= row){
 cout<<endl;
 row = row + 1;
 
- }*/
+ }
 
 
 
  // Pattern reverse of above
 
-/* int n;
+ int n;
  cin>>n;
 
  int row = 1;
@@ -270,13 +270,13 @@ while(col <= n - row + 1){
 cout<<endl;
 row = row + 1;
 
- } */ 
+ } 
  
 
 
  //reverse triangle
 
-/*int n;
+int n;
  cin>>n;
 
  int row = 1;
@@ -297,14 +297,14 @@ while(col <= n-row+1){
 cout<<endl;
 row = row + 1;
 
- }*/
+ }
 
 
 
 //3 triangle pattern 
 
 
-/*int n;
+int n;
 cin>>n;
 int i = 1;
 
@@ -345,7 +345,7 @@ int main() {
 
   //pattern printing 1
 
- /*int n;
+ int n;
   cin >> n;
 
   int i = 1;
@@ -357,14 +357,14 @@ int main() {
         j=j+1;
     }
     cout<<endl;
-    i=i+1;*/
+    i=i+1;
 
 
 
 
     //pattern printing 2
 
-    /*int n;
+    int n;
     cin>>n;
     int i=1;
     int count = 1;
@@ -376,7 +376,7 @@ int main() {
         j=j+1;
       }
       cout<<endl;
-      i = i+1; */
+      i = i+1; 
 
 
 
@@ -384,7 +384,7 @@ int main() {
 
       //Triangle pattern
 
-      /*int n;
+  int n;
 cin>>n;
  int row = 1;
  while(row<=n){
@@ -396,7 +396,7 @@ cin>>n;
   }
   cout<<endl;
   row = row + 1 ;
- } */
+ } 
 
 
 
@@ -404,12 +404,12 @@ cin>>n;
 
       //pattern column
 
-      /*int n;
+  int n;
       cin>>n;
 
-      int row = 1;
+  int row = 1;
 
-      while(row<=n) {
+   while(row<=n) {
         int col = 1;
         while(col<=row) {
           cout<<col;
@@ -417,14 +417,13 @@ cin>>n;
         }
         cout<<endl;
         row=row+1;
-    }  */
-
+    }  
 
 
 
 // pattern 5
 
-/*int n;
+int n;
 cin>>n;
 
 int row = 1;
@@ -438,14 +437,14 @@ while(row<=n) {
   }
   cout<<endl;
   row = row +1;
-} */
+} 
 
 
 
 
 //pattern 6 using i-j+1
 
-/*int n;
+int n;
 cin>>n;
 
 int i = 1;
@@ -458,13 +457,13 @@ while(i <=n){
   }
   cout<<endl;
   i=i+1;
-} */
+} 
 
 
 
 //Pattern 7 AAA BBB  CCC Square  type (using 'A' + i -1)
 
-/* int n;
+ int n;
 cin>>n;
  int row = 1;
  while(row<=n){
@@ -476,13 +475,13 @@ cin>>n;
   }
   cout<<endl;
   row = row + 1 ;
- }  */
+ }  
 
 
 
 // Pattern 8 ABC  ABC  ABC Type(using 'A' + j-1)
 
-/*int n;
+int n;
 cin>>n;
 
 int row = 1;
@@ -496,14 +495,14 @@ while(row<=n){
   }
   cout<<endl;
   row = row + 1;
-}  */
+}  
 
 
 
 
 // Pattern of type ABCDEF
 
-/*int n;
+int n;
     cin>>n;
     int i=1;
     char value = 'A';
@@ -517,13 +516,13 @@ while(row<=n){
       }
       cout<<endl;
       i = i+1;
-} */
+} 
 
 
 
 // Pattern type ABC  BCD  CDE  (using 'A' + i + j -2)
 
-/*int n;
+int n;
 cin>>n;
  int row = 1;
  while(row<=n){
@@ -535,13 +534,13 @@ cin>>n;
   }
   cout<<endl;
   row = row + 1 ;
- }  */
+ }  
 
 
 
  // Triangular pattern (using 'A' +row - 1)
 
- /*int n;
+ int n;
 cin>>n;
  int row = 1;
  while(row<=n){
@@ -553,13 +552,13 @@ cin>>n;
   }
   cout<<endl;
   row = row + 1 ;
- }*/
+ }
 
 
  // reverse triangular 
 
 
-/*int n;
+int n;
  cin>>n;
 
  int row = 1;
@@ -580,13 +579,13 @@ while(col <= row){
 cout<<endl;
 row = row + 1;
 
- }*/
+ }
 
 
 
  // Pattern reverse of above
 
-/* int n;
+ int n;
  cin>>n;
 
  int row = 1;
@@ -602,7 +601,7 @@ while(col <= n - row + 1){
 cout<<endl;
 row = row + 1;
 
- } */ 
+ } 
  
  //reverse triangle
 
@@ -692,7 +691,7 @@ int main()
 */
 
 // Factorial of a number
-/*
+
 int fact(int n)
 {
   int factorial = 1;
@@ -711,10 +710,10 @@ int main()
   cout<<ans<<endl;
   return 0;
 }
-*/
+
 
 // Calculate nCr
-/*
+
 
 int fact(int n)
 {
@@ -734,11 +733,11 @@ int ans = fact(n)/((fact(r)*fact(n-r)));
 cout<<ans<<endl;
 return 0;
 }
-*/
+
 
 // Pascal Triangle
 
-/*
+
 int fact(int n)
 {
   int factorial = 1;
@@ -762,11 +761,11 @@ int main()
     }
   return 0;
 }
-*/
+
 
 // Sum of n natural no.
 
-/*
+
 
 int sum (int n)
 {
@@ -781,10 +780,10 @@ int main()
   cin>>n;
 cout<< sum(n) <<endl;
 }
-*/
+
 
 // Binary to decimal
-/*
+
 int binaryToDecimal(int n)
 {
   int ans = 0;
@@ -804,10 +803,9 @@ int main()
   cin>>n;
   cout<<binaryToDecimal(n) <<endl;
 }
-*/
 
 // octal to decimal
-/*
+
 int octalToDecimal(int n)
 {
   int ans = 0;
@@ -827,11 +825,11 @@ int main()
   cin>>n;
   cout<<octalToDecimal(n) <<endl;
 }
-*/
+
 
 // Decimal to Binary
 
-/*
+
 int decimalToBinary(int n)
 {
   int x = 1;
@@ -854,10 +852,10 @@ int main()
   cin>>n;
   cout<<decimalToBinary(n) <<endl;
 }
-*/
+
 
 // Add two binary no.s
-/*
+
 int reverse(int n) {
   int ans = 0;
   while (n > 0) {
@@ -905,10 +903,10 @@ int main() {
   cout << addBinary(a, b) << endl;
 }
 }
-*/
+
 
 //Array (initializing)
-/*
+
 int main()
 {
   int n;
@@ -924,10 +922,10 @@ int main()
     }
   return 0;
 }
-*/
+
 
 //finding min and max in an array
-/*
+
 int main()
 {
   int n;
@@ -953,7 +951,7 @@ int main()
       return 0;
     }
 }
-*/
+
 
 
 #include <iostream>
@@ -1017,7 +1015,7 @@ int main()
 */
 
 // Factorial of a number
-/*
+
 int fact(int n)
 {
   int factorial = 1;
@@ -1036,7 +1034,7 @@ int main()
   cout<<ans<<endl;
   return 0;
 }
-*/
+
 
 // Calculate nCr
 /*
@@ -1156,7 +1154,7 @@ int main()
 
 // Decimal to Binary
 
-/*
+
 int decimalToBinary(int n)
 {
   int x = 1;
@@ -1179,10 +1177,10 @@ int main()
   cin>>n;
   cout<<decimalToBinary(n) <<endl;
 }
-*/
+
 
 // Add two binary no.s
-/*
+
 int reverse(int n) {
   int ans = 0;
   while (n > 0) {
@@ -1230,10 +1228,10 @@ int main() {
   cout << addBinary(a, b) << endl;
 }
 }
-*/
+
 
 //Array (initializing)
-/*
+
 int main()
 {
   int n;
@@ -1249,10 +1247,10 @@ int main()
     }
   return 0;
 }
-*/
+
 
 //finding min and max in an array
-/*
+
 int main()
 {
   int n;
@@ -1278,11 +1276,11 @@ int main()
       return 0;
     }
 }
-*/
+
 
 //sorting of array
 //selection sort
-/*
+
 int main()
 {
   int n;
@@ -1312,7 +1310,7 @@ int main()
 */
 
 //Bubble sort
-/*
+
 int main(){
   int n;
   cin>>n;
@@ -1353,17 +1351,17 @@ int main() {
     float f = 334.230;
     double d = 14049.304930000;
     
-    cout<<" "<<n<<endl<<" "<<l<<endl<<" "<<ch<<endl<<" "<<f<<endl<<" "<<d<<endl;
+  cout<<" "<<n<<endl<<" "<<l<<endl<<" "<<ch<<endl<<" "<<f<<endl<<" "<<d<<endl;
     return 0;
 }
-*/
-/*
+
+
 int main()
 {
     int n;
     cin>>n;
 
-    int arr[n];
+  int arr[n];
     for(int i = 0 ; i<n; i++)
     {
         cin>>arr[i];
@@ -1385,10 +1383,10 @@ int main()
     }
     cout<<endl;
 }
-*/
+
 
 //Max of a Arrray
-/*
+
 int main()
 {
   int mx = -1999999;
@@ -1462,8 +1460,8 @@ int main()
       pd = a[j]-a[j-1];
       curr = 2;
       
-    }
-    ans = max(ans , curr);
+  }
+  ans = max(ans , curr);
     j++;
   }
   cout<<ans<<endl;
